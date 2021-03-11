@@ -1,0 +1,96 @@
+h2 {
+    margin-top: 0;
+}
+
+.realisation-content p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 1.4em;
+}
+
+.realisation-sidebar {
+    margin-left: 40px;
+    float: left;
+    background-color: rgba(217,217,217, 0.2);
+    padding: 10px;
+}
+
+.realisation-sidebar li {
+    padding-bottom: 20px;
+}
+
+.realisation-sidebar a {
+    color: black;
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.realisation-sidebar .left {
+    position: relative;
+}
+
+.realisation-sidebar .left::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f0a920;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.realisation-sidebar .left:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.realisation-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.realisation-content .first {
+    margin-top: 0;
+}
+
+.realisation-content h2 {
+    margin-top: 30px;
+}
+
+.more-img {
+    font-size: 16px;
+    color: #5d5d5d;
+}
+
+/* =====================================================================
+		GRID SIDEBAR + CONTENT
+======================================================================== */
+
+
+
+.bloc-photos {
+    margin-top: 40px;
+}
+
+.bloc-photos img {
+    width: 300px;
+    height: 225px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1800px) {
+
+    .realisation-sidebar {
+        float: none;
+        margin: 0 20px;
+    }
+
+    .bloc-photos {
+        text-align: center;
+    }
+}

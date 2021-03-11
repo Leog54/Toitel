@@ -1,0 +1,38 @@
+				<div id="hamburger-content">
+					
+					
+					<nav class="menu">
+						<ul class="liste-items">							
+							<li><a href="index.html" class="items" id="test">Accueil</a></li>
+							<li class="items" id ="test2"> 
+								Toitel<span>&#9660;</span>
+									<ul class="sous-liste">
+										<li class="items-sous-liste"><a href="notreSociete.html" class="lien-sous-liste">Notre société</a></li>
+										<li class="items-sous-liste"><a href="nosActivites.html" class="lien-sous-liste">Nos activités</a></li>
+										<li class="items-sous-liste"><a href="qualiteToitel.html" class="lien-sous-liste">La qualité Toitel</a></li>
+										<li class="items-sous-liste"><a href="garantieToitel.html" class="lien-sous-liste">La garantie Toitel</a></li>
+										<li class="items-sous-liste"><a href="espacePros.html" class="lien-sous-liste">Espace professionnels</a></li>
+									</ul>								
+							</li>
+							<li><a href="toitureCoulissante.html" class="items" id="test3">Toiture coulissante</a></li>
+							<li class="items" id="test4">
+								Nos réalisations<span>&#9660;</span>
+									<ul class="sous-liste">
+										<li class="items-sous-liste">Veranda</li>
+										<li class="items-sous-liste">Terrasse restaurant</li>
+										<li class="items-sous-liste">Piscine</li>
+										<li class="items-sous-liste">Terrasse</li>
+										<li class="items-sous-liste">Combles</li>
+										<li class="items-sous-liste">Edicule escalier accès toit</li>
+										<li class="items-sous-liste">Maison</li>
+										<li class="items-sous-liste">Commerces</li>
+										<li class="items-sous-liste">Grande surface</li>
+										<li class="items-sous-liste">Patio</li>
+										<li class="items-sous-liste">Puits de lumière</li>
+										<li class="items-sous-liste">Jardin d'hiver</li>
+									</ul>
+							</li>
+							<li><a href="#" class="items" id="test5">Contact</a></li>
+						</ul>
+					</nav>
+				</div>

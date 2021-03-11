@@ -1,0 +1,270 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+html, body
+{
+	font-size: 12px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style: none;
+}
+h1
+{
+	font-size: 22px;
+	color: #404040;
+}
+h2
+{
+	font-size: 25px;
+	color: #404040;
+}
+h4
+{
+	color: #404040;
+}
+
+.wrapper
+{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#background
+{
+	height: 580px;
+	width: 100%;
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+/* =====================================================================
+		SOUS-MENU
+======================================================================== */
+
+.toitel-sidebar {
+	background-color: rgba(217,217,217, 0.2);
+	margin: 0 20px 20px;
+	padding: 10px;
+}
+
+.toitel-sidebar li {
+	padding-bottom: 20px;
+}
+
+.toitel-sidebar a {
+	color: black;
+	font-size: 16px;
+	padding-bottom: 4px;
+}
+
+.toitel-sidebar .left {
+	position: relative;
+}
+
+.toitel-sidebar .left::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f0a920;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+.toitel-sidebar .left:hover:before {
+	visibility: visible;
+	width: 100%;
+}
+
+
+/* =====================================================================
+		BLOC SOCIETE
+======================================================================== */
+
+#societe
+{
+	padding: 125px;
+	background-color: #D3D4D9;
+}
+#societe h2
+{
+	margin-top: 70px;
+	letter-spacing: 1px;
+	position: relative;
+	padding-bottom: 10px;
+}
+#societe h2::before
+{
+	content: "";
+	position: absolute;
+	background-color: #f0a920;
+	width: 50px;
+	height: 3px;
+	bottom: 0;
+}
+#societe p, #activites p, #qualite p, #garantie p, #espace-pro p
+{
+	margin: 0 auto;
+	margin-top: 30px;
+	max-width: 1200px;
+	font-size: 18px;
+	color: #000;
+}
+
+.id-section, .id-section-activites, #id-section-qualite, .id-section-espace-pro {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #404040;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	margin: 0 auto;
+	padding-right: 20px;
+}
+
+/* =====================================================================
+		BLOC ACTIVITES
+======================================================================== */
+
+#activites {
+	padding: 125px;
+	background-color: #d0b8ac;
+}
+
+#redirection-contact {
+	color: #fff;
+}
+
+#redirection-contact:hover {
+	color: #efe5dc;
+}
+
+.toitel-grid {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 300px);
+	grid-gap: 40px;
+	justify-content: center;
+}
+
+.item-toitel-grid {
+	width: 100%;
+	height: 100%;
+	transition: transform .5s ease;
+}
+
+.item-toitel-grid:hover img {
+	transform: scale(1.25);
+}
+
+.bloc-photos {
+	margin-top: 40px;
+}
+
+.bloc-photos img {
+	width: 300px;
+	height: 225px;
+	padding: 20px;
+}
+
+h3 {
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+/* =====================================================================
+		BLOC QUALITE
+======================================================================== */
+
+#qualite {
+	padding: 125px;
+	background-color: #efe5dc;
+}
+
+/* =====================================================================
+		BLOC GARANTIE
+======================================================================== */
+
+#garantie {
+	padding: 125px;
+}
+
+#garantie ul, #espace-pro ul {
+	margin-top: 20px;
+	list-style: circle;
+}
+
+#garantie li, #espace-pro li {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+/* =====================================================================
+		BLOC ESPACE PRO
+======================================================================== */
+
+#espace-pro {
+	padding: 125px;
+	margin-bottom: -70px;
+	background-color: #e9edc9;
+}
+
+.name-fichier {
+	font-size: 17px;
+	color: #5d5d5d;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.fichier-download {
+	color: #fff;
+	background-color: #444;
+	font-size: 15px;
+	padding: 7px 15px;
+	border-radius: 15px;
+	margin-left: 10px;
+}
+
+.name-fichier {
+	display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+
+	#societe, #activites, #qualite, #garantie, #espace-pro {
+		padding: 125px 20px;
+	}
+
+	.bloc-photos {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	.id-section-espace-pro {
+		font-size: 28px;
+	}
+}
+
+
+
